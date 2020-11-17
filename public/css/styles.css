@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+:root {
+    --mons: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navmain {
+    display: flex;
+    padding: 2rem 0rem 0rem 0rem;
+    background-color: black;
+}
+
+.navlogo {
+    flex: 1;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.navlogo > h1 > a {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    
+}
+
+.navlogo > h1 > a:hover {
+    text-decoration: none;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.navbtns {
+    flex: 2;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbtns > li {
+    padding: 0rem 1rem;
+    list-style: none;
+    
+  
+    
+}
+
+.navbtns > li > a {
+    text-decoration: none;
+    font-family: var(--mons);
+    color: white;
+}
+
+.navbtns > li > a:hover {
+    color: lightblue;
+}
+
+.firstbase {
+    display: flex;
+    padding-bottom: 5rem;
+    background-color: black;
+}
+
+.capturetxt {
+    flex: 1;
+    padding: 5rem;
+}
+
+.moments1 {
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+
+.moments1:hover {
+    color: crimson;
+    transform: scale(1.1);
+    cursor: default;
+}
+
+.capturetxt > h1 {
+    font-family: var(--mons);
+    font-size: 7vw;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 1;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.capturetxt > p {
+    font-family: var(--mons);
+    text-align: left;
+    color: white;
+}
+
+.photogp {
+    font-family: var(--mons);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.photogplink {
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+    
+}
+
+.photogplink:hover {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.cameraphoto {
+    flex: 1;
+    text-align: center;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+
+.cameraphoto > .putocam {
+    width: 100%;
+    margin: 5rem 0rem 0rem 0rem;
+}
+
+.secondbase {
+    display: flex;
+    font-family: var(--mons);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5rem 0rem;
+}
+
+.onecont {
+    flex: 1;
+}
+
+.onecont > p {
+    margin: 2rem 6rem;
+    
+}
+
+.twocont {
+    flex: 1;
+}
+
+.twocont > p {
+    margin: 2rem 6rem;
+   
+}
+
+.threecont {
+    flex: 1;
+}
+.threecont > p{
+    margin: 2rem 6rem;
+    font-size: 0.9rem;
+}
+
+.h2s {
+   
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.icons1 {
+    color: white;
+    padding-bottom: 2rem;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    
+}
+
+.icons1:hover {
+    color: tomato;
+    
+}
+
+.icons2 {
+    padding-bottom: 2rem;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    color: white;
+}
+
+.icons2:hover {
+    color: yellow;
+    transition-duration: 1s;
+}
+
+.icons3 {
+    padding-bottom: 2rem;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    color: white;
+}
+
+.icons3:hover {
+    color: lightseagreen;
+    transition-duration: 1s;
+}
+
+.section1 {
+    background-color: black;
+    padding: 2rem;
+}
+
+.samplepics-title {
+    text-align: center;
+    font-family: var(--mons);
+    color: white;
+    text-transform: uppercase;
+}
+
+.samplepics-title > h1 {
+    font-weight: 400;
+}
+
+#sample-pics {
+    padding: 5rem 8rem 5rem 8rem;
+}
+
+.pics-creators {
+    text-align: center;
+    font-family: var(--mons);
+    margin-top: 2rem;
+    font-weight: 200;
+    color: white;
+
+}
+
+#links {
+    padding: 10.1rem 0rem;
+    background-color: black;
+}
+
+.linklogo {
+    flex: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    
+}
+
+.linklogo > h1 {
+    font-family: var(--mons);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.iconslinks {
+    padding: 1.5rem;    
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.iconslinks:hover {
+    color: lightgreen;
+}
+
+.social-links {
+    display: flex;
+    text-align: center;
+    
+}
+
+.social-links > li {
+    margin: 0 auto;
+    list-style: none;   
+    transition-property: all;
+    transition-duration: 0.5s;
+     
+    
+    
+}
+
+.social-links > li:hover {
+    transform: scale(0.9);
+    transform: rotate(360deg);
+}
+
+.social-links > li > a {
+    color: white;
+    font-family: var(--mons);
+    font-size: 2vw;
+    text-transform: uppercase;
+    
+}
+
+.social-links > li > a:hover {
+    text-decoration: none;
+    
+
+    
+}
+
+.footer {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    background-color: black;
+}
+
+.footer > p {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: var(--mons);
+}
+
+.cardmain {
+    padding: 4rem 5rem 11rem 5rem;
+    background-color: black;
+}
+
+.cardbase {
+    display: flex;
+}
+
+.cards {
+    background-color: black;
+    flex: 2;
+    margin: 01rem;
+    text-align: center;
+    color: white;
+    font-family: var(--mons);
+    border: white solid 1px;
+}
+
+.cards > h3 {
+    padding: 1rem 0rem 1rem 0rem;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.cards > p {
+    padding: 20px 40px 20px 40px;
+}
+
+.buynow1 {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: solid white 2px;
+    font-family: var(--mons);
+    transition-property: color, background-color;
+    transition-duration: 1s;
+    
+}
+
+.buynow1:hover {
+    color: black;
+    background-color: white;
+}
+
+.buynow {
+    padding: 0.2rem 1rem;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: solid white 2px;
+    font-family: var(--mons);
+    margin-bottom: 2rem;
+    transition-property: color, background-color;
+    transition-duration: 1s;
+    
+}
+
+.buynow:hover {
+    color: black;
+    background-color: white;
+    
+}
+
+.pl {
+    text-align: center;
+    color: white;
+    font-family: var(--mons);
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.pinfo {
+    text-align: left;
+    margin: 1rem;
+    font-family: var(--mons);
+    color: white;
+}
+
+.gallerymain {
+    background-color: black;
+}
+
+.gal1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gal2 {
+    display: flex;
+    justify-content: center;
+}
+
+.gal3 {
+    display: flex;
+    justify-content: center;
+}
+
+.gal3photo {
+    width: 25%;
+    margin: 3rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border: white solid 2px;
+}
+
+.gal1photo {
+    margin: 5rem;
+    width: 40%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border: white solid 2px;
+}
+
+.gal1photo:hover, .gal3photo:hover {
+    transform: scale(1.1);
+    
+    
+}
+
+.creds {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 1rem 0rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .navmain {
+        flex-direction: column;
+
+    }
+
+    .firstbase {
+        flex-direction: column;
+    }
+
+    .capturetxt {
+        padding-bottom: 0;
+    }
+
+    .capturetxt > h1 {
+        text-align: center;
+        font-size: 10vw;
+    }
+
+    .capturetxt > p {
+        text-align: center;
+    }
+
+    .cameraphoto > img {
+        padding-left: 3rem;
+        width: 100%;
+        margin-top: 0rem;   
+    }
+
+    .secondbase {
+        flex-direction: column;
+        padding-top: 0rem;
+    }
+
+    #links {
+        flex-direction: column;
+    }
+
+    .linklogo {
+        padding: 0;  
+    }
+
+    .linklogo > h1 {
+        font-size: 7vw;
+    }
+
+    .social-links > li > a {
+        font-size: 3vw;
+    }
+
+    #sample-pics {
+        padding: 1rem;
+    }
+
+    .samplepics-title > h1 {
+        font-size: 6vw;
+    }
+
+    .cardbase {
+        flex-direction: column;
+    }
+
+    .footer {
+        font-size: 2vw;
+    }
+
+    .gallerymain {
+        overflow: hidden;
+    }
+
+    .gal1 {
+        flex-direction: column;
+        justify-content: center;
+        width: 180%;
+    }
+
+    .gal2 {
+        flex-direction: column;
+        width: 180%;
+    }
+
+    .gal3 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 330%;
+    }
+
+}
+
+/* contact EJS styles */
+
+.formh1 {
+    margin: 0rem 0rem 3rem 0rem;
+    font-family:'Ubuntu', sans-serif;
+    color: white;
+}
+
+.formboi {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    background-color: black;
+}
+
+.emailboi {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.textboi {
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+.submitboi {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.typ {
+    color: white;
+    margin: 2rem 2rem 2rem 0rem;
+    font-family: var(--mons)
+}
+
+
+
+
+
+
+
+
+
