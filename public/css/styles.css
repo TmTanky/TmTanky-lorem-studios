@@ -336,7 +336,7 @@
 .cards {
     background-color: black;
     flex: 2;
-    margin: 01rem;
+    margin: 1rem;
     text-align: center;
     color: white;
     font-family: var(--mons);
@@ -409,6 +409,9 @@
 
 .gallerymain {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .gal1 {
@@ -455,98 +458,6 @@
     padding: 1rem 0rem;
 }
 
-
-@media screen and (max-width: 1024px) {
-
-    .navmain {
-        flex-direction: column;
-
-    }
-
-    .firstbase {
-        flex-direction: column;
-    }
-
-    .capturetxt {
-        padding-bottom: 0;
-    }
-
-    .capturetxt > h1 {
-        text-align: center;
-        font-size: 10vw;
-    }
-
-    .capturetxt > p {
-        text-align: center;
-    }
-
-    .cameraphoto > img {
-        padding-left: 3rem;
-        width: 100%;
-        margin-top: 0rem;   
-    }
-
-    .secondbase {
-        flex-direction: column;
-        padding-top: 0rem;
-    }
-
-    #links {
-        flex-direction: column;
-    }
-
-    .linklogo {
-        padding: 0;  
-    }
-
-    .linklogo > h1 {
-        font-size: 7vw;
-    }
-
-    .social-links > li > a {
-        font-size: 3vw;
-    }
-
-    #sample-pics {
-        padding: 1rem;
-    }
-
-    .samplepics-title > h1 {
-        font-size: 6vw;
-    }
-
-    .cardbase {
-        flex-direction: column;
-    }
-
-    .footer {
-        font-size: 2vw;
-    }
-
-    .gallerymain {
-        overflow: hidden;
-    }
-
-    .gal1 {
-        flex-direction: column;
-        justify-content: center;
-        width: 180%;
-    }
-
-    .gal2 {
-        flex-direction: column;
-        width: 180%;
-    }
-
-    .gal3 {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 330%;
-    }
-
-}
-
 /* contact EJS styles */
 
 .formh1 {
@@ -585,6 +496,171 @@
     margin: 2rem 2rem 2rem 0rem;
     font-family: var(--mons)
 }
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .navmain {
+        flex-direction: column;
+
+    }
+
+    .firstbase {
+        flex-direction: column;
+    }
+
+    .capturetxt {
+        padding-bottom: 0;
+        padding: 5rem 1rem 0rem 1rem;
+    }
+
+    .capturetxt > h1 {
+        text-align: left;
+        font-size: 13vw;
+    }
+
+    .capturetxt > p {
+        text-align: left;
+
+    }
+
+    .cameraphoto > img {
+        padding-left: 3rem;
+        width: 100%;
+        margin-top: 0rem;   
+    }
+
+    .secondbase {
+        flex-direction: column;
+        padding-top: 0rem;
+    }
+
+    .secondbase p {
+        text-align: left;
+        margin: 4rem 1rem;
+    }
+
+    .secondbase h2 {
+        margin: 2rem 1rem;
+        text-align: left;
+    }
+
+    #links {
+        padding: 5rem 1rem;
+        flex-direction: column;
+    }
+
+    .linklogo {
+        padding: 0;  
+    }
+
+    .linklogo > h1 {
+        font-size: 7vw;
+    }
+
+    .social-links > li > a {
+        font-size: 3vw;
+    }
+
+    #sample-pics {
+        padding: 1rem;
+    }
+
+    .samplepics-title > h1 {
+        font-size: 6vw;
+    }
+
+    .cardbase {
+        flex-direction: column;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    .gallerymain {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gal1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .gal1 img {
+        width: 80%;
+    }
+
+    .gal2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .gal2 img {
+        width: 80%;
+    }
+
+    .gal3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .gal3 img {
+        width: 80%;
+    }
+
+    .gallerymain img {
+        margin: 2rem;
+    }
+
+
+
+    /* .gallerymain {
+        
+        justify-content: center;
+    }
+
+    .gal1 {
+        flex-direction: column;
+        justify-content: center;
+        width: 200%;
+    }
+
+    .gal2 {
+        flex-direction: column;
+        width: 180%;
+    }
+
+    .gal3 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 330%;
+    } */
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .cardmain {
+        padding: 4rem 1rem 11rem 1rem;
+    }
+
+    .formboi {
+        padding: 5rem 1rem 3rem 1rem;
+    }
+
+    .navbtns li a {
+        font-size: 4vw;
+    }
+
+}
+
 
 
 

@@ -8,7 +8,7 @@ const app = express()
 app.use(bodyParser.urlencoded({extended: true}))
 app.set(`view engine`, `ejs`)
 app.use(express.static(`public`))
-mongoose.connect(`mongodb+srv://TmAdmin:${process.env.PASSWORD}@cluster0.c7khy.mongodb.net/loremDB`, {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
+mongoose.connect(process.env.LOREM_STUDIOS, {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 
 const loremSchema = new mongoose.Schema ({
     id: Number,
